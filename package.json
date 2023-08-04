@@ -1,0 +1,25 @@
+{
+  "name": "judou",
+  "version": "0.0.1",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "files": ["dist"],
+	"main": "./dist/JuDou.umd.js",
+	"module": "./dist/JuDou.es.js",
+	"exports": {
+		".": {
+			"import": "./dist/JuDou.es.js",
+			"require": "./dist/JuDou.umd.js"
+		}
+	},
+  "dependencies": {
+    "vue": "^3.3.4"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^4.2.3",
+    "vite": "^4.4.5"
+  }
+}
