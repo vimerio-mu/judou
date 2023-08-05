@@ -88,7 +88,6 @@
       paddingRight: props.fontSize * 0.55 + 'px'
   }
   const puncStyle = `translate(${props.fontSize * 0.55}px, -${props.fontSize * 0.55}px)`
-  console.log("puncStyle: ",puncStyle)
   </script>
   
   <template>
@@ -107,6 +106,7 @@
       font-family: 'qiji';
       font-size: 36px;
       padding-right: 20px;
+      overflow: hidden;
   }
   :deep(.punc) {
       display: inline-block;
