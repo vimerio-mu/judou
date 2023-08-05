@@ -6,7 +6,7 @@
 2. 阿拉伯数字转中文
 3. 生成类古籍的排版效果
 
-![image-20230804225550319]('./../../src/assets/demo.png')
+![image-20230804225550319](./src/assets/demo.png)
 
 ## Install
 
